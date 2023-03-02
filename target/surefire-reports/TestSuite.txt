@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.328 s <<< FAILURE! - in TestSuite
+Search(MyDemos.MyTest)  Time elapsed: 7.617 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate option with text: Camers & Photo
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'VINITHA', ip: '192.168.0.171', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: unknown
+	at MyDemos.MyTest.Search(MyTest.java:23)
+
